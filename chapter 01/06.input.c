@@ -8,7 +8,7 @@ int	main(void)
 	printf("Enter the value of b: ");
 	scanf("%d", &b);
 
-	printf("The value of a & b: %d, %d.\n", a, b);
+	printf("Addition of a & b: %d.\n", a + b);
 
 	return (0);
 }
