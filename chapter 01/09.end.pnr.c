@@ -4,18 +4,18 @@
 */
 int main(void)
 {
-  int I, p, r, t;
+  float I, p, r, t;
 
   printf("Enter the values of \n");
   printf("Principle: ");
-  scanf("%d", &p);
+  scanf("%f", &p);
   printf("Rate: ");
-  scanf("%d", &r);
+  scanf("%f", &r);
   printf("Year: ");
-  scanf("%d", &t);
+  scanf("%f", &t);
 
   I = (p * r * t) / 100;
-  printf("Simple Interest: %d", I);
+  printf("Simple Interest: %.2f", I);
 
   return 0;
 }
